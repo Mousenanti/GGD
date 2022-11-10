@@ -490,6 +490,7 @@ progress {
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
+  font-family: Oswald;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -501,6 +502,7 @@ progress {
 
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
+  font-family: Oswald;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -512,6 +514,7 @@ progress {
 
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
+  font-family: Oswald;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -523,6 +526,7 @@ progress {
 
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
+  font-family: Oswald;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -534,6 +538,7 @@ progress {
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
+  font-family: Oswald;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -545,6 +550,7 @@ progress {
 
 .display-6 {
   font-size: calc(1.375rem + 1.5vw);
+  font-family: Oswald;
   font-weight: 300;
   line-height: 1.2;
 }
