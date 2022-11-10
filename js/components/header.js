@@ -27,7 +27,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="/#about-us" id="about-us-nav">About Us</a>
+            <a class="nav-link" href="#about-us" id="about-us-nav">About Us</a>
             <a class="nav-link" href="prospect.html">Join Us</a>
             <a class="nav-link" href="cadets.html">Cadet Portal</a>
           </div>
