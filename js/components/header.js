@@ -16,7 +16,7 @@
           padding-bottom: .5rem;
       }
     </style>
-    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary sticky-top">
       <div class="container-fluid">
         <div class="navbar-brand">
             <a href="index.html"><img src="img/GGD.webp" alt="" width="24" height="24" class="d-inline-block align-text-top"></a>
@@ -27,9 +27,9 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Join Us</a>
-            <a class="nav-link" href="#">Cadet Portal</a>
+            <a class="nav-link" href="/#about-us" id="about-us-nav">About Us</a>
+            <a class="nav-link" href="prospect.html">Join Us</a>
+            <a class="nav-link" href="cadets.html">Cadet Portal</a>
           </div>
         </div>
       </div>
@@ -42,7 +42,12 @@
   
       connectedCallback() {
         this.innerHTML = headerTemplate.innerHTML;
-
+        const navLinks = document.querySelectorAll('.nav-link');
+        const menuToggle = document.getElementById('navbarNavAltMarkup');
+        const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => { bsCollapse.toggle() });
+        })
       }
     }
   
