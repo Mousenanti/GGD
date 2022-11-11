@@ -87,7 +87,7 @@
         "Leading Petty Officer", "Assistant LPO"
     ]
     for(const position of positions) {
-        gold = name => (position == "Executive Officer") || name.includes("CPO") ? "text-warning" : "";
+        gold = name => (position == "Executive Officer") /*|| name.includes("CPO")*/ ? "text-warning" : "";
 
         var div = document.createElement("div");
         div.classList.add("row", "mb-4");
@@ -111,7 +111,7 @@
 
     var squads = document.getElementById('squads');
     for(const squad in greyghost.squads) {
-        gold = name =>name.includes("CPO") ? "text-warning" : "";
+        gold = name => /*name.includes("CPO") ? "text-warning" :*/ "";
 
         var div = document.createElement("div");
         const leader = greyghost.squads[squad].leader;
