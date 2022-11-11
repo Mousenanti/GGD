@@ -20,7 +20,7 @@
           <a class="text-reset fs-4" href="https://www.facebook.com/GGDTSK"><i class="bi bi-facebook"></i></a>
           <a class="text-reset fs-4" href="https://www.instagram.com/greyghostdivision/"><i class="bi bi-instagram"></i></a>
           <br>
-          <button class="btn btn-outline-light mt-2">JOIN US</button>
+          <a href="prospects.html#get-in-touch" class="btn btn-outline-light mt-2">JOIN US</a>
         </div>
       </div>
     </footer>
