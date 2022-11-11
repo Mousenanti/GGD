@@ -2,20 +2,6 @@
     const headerTemplate = document.createElement('template');
   
     headerTemplate.innerHTML = `
-    <style>
-      #sidebar {
-        width: 250px;
-      }
-      #sidebar li > a {
-          color: white;
-          text-decoration: none;
-      
-      }
-      #sidebar li {
-          padding-top: .5rem;
-          padding-bottom: .5rem;
-      }
-    </style>
     <nav class="navbar navbar-dark navbar-expand-sm bg-primary sticky-top">
       <div class="container-fluid">
         <div class="navbar-brand">
