@@ -6,7 +6,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
 });
 
-const SUPER_SECRET_CODE = "AARONISOK";
+const SUPER_SECRET_CODE = "122GGD";
 function validate() {
     if(document.getElementById("password").value == SUPER_SECRET_CODE) {
         //console.log(params.redirect);
