@@ -3,7 +3,7 @@
     const getInTouchTemplate = document.createElement('template');
   
     getInTouchTemplate.innerHTML = `
-      <div style="max-width:350px;margin-left:auto;margin-right:auto;">
+      <div style="max-width:350px;margin-left:auto;margin-right:auto;" id="get-in-touch">
         <h1 class="text-uppercase text-center py-2">Get in touch today</h1>
         <form>
           <input type="text" placeholder="Name" class="form-control mb-1">
