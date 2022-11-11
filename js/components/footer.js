@@ -17,8 +17,8 @@
           <a href="https://quarterdeck.seacadets.org/" class="text-reset text-decoration-none">Quarterdeck</a><br>
         </div>
         <div class="offset-1 col-5">
-          <a href="" class="text-reset fs-4" href="https://www.facebook.com/GGDTSK"><i class="bi bi-facebook"></i></a>
-          <a href="" class="text-reset fs-4" href="https://www.instagram.com/greyghostdivision/"><i class="bi bi-instagram"></i></a>
+          <a class="text-reset fs-4" href="https://www.facebook.com/GGDTSK"><i class="bi bi-facebook"></i></a>
+          <a class="text-reset fs-4" href="https://www.instagram.com/greyghostdivision/"><i class="bi bi-instagram"></i></a>
           <br>
           <button class="btn btn-outline-light mt-2">JOIN US</button>
         </div>
