@@ -3,91 +3,86 @@
     const calendarInfo = {
         January: [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 14,
+                end: 15,
+                event: "Drill"
             },
         ],
-        Febuary:  [
+        February:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
-            },
-            {
-                start: 12,
-                end: 14,
-                event: "Scottish Game #2"
+                start: 18,
+                end: 19,
+                event: "Drill"
             },
         ],
         March:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 18,
+                end: 19,
+                event: "Drill"
             },
         ],
         April:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 15,
+                end: 16,
+                event: "Drill"
             },
         ],
         May:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 20,
+                end: 21,
+                event: "Drill"
             },
         ],
         June:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 17,
+                end: 18,
+                event: "Drill"
             },
         ],
         July:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 15,
+                end: 16,
+                event: "Drill"
             },
         ],
         August:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 19,
+                end: 20,
+                event: "Drill"
             },
         ],
         September:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 2,
+                end: 3,
+                event: "Drill - Scottish Games"
             },
         ],
         October:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 7,
+                end: 7,
+                event: "Drill - Fleet Week"
             },
         ],
         November:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 11,
+                end: 11,
+                event: "Drill"
             },
         ],
         December:  [
             {
-                start: 5,
-                end: 6,
-                event: "Scottish Games"
+                start: 16,
+                end: 17,
+                event: "Drill"
             },
         ]
     };
