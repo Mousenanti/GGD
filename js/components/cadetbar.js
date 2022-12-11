@@ -45,12 +45,6 @@
       </span>
       Payment
     </a>
-    <a class="d-flex btn btn-light text-start w-100" href="">
-      <span class="material-symbols-outlined me-2">
-        directions_run
-      </span>
-      PRT Standards
-    </a>
 </div>
     `;
     class CadetBar extends HTMLElement {
