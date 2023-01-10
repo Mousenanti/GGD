@@ -4,7 +4,7 @@
         January: [
             {
                 start: 14,
-                end: 15,
+                end: 14,
                 event: "Drill"
             },
         ],
