@@ -2,7 +2,7 @@
     console.log(1)
     const staffInfo = [
         {
-            title: "Regional Director",
+            title: "Assistant Regional Director",
             name: "Paul Norton",
             rank: "Lieutenant Commander, USNSCC",
             quote: "In 12 years, I have never missed a single drill.",
@@ -59,9 +59,9 @@
         },
         {
             title: "Command Chief",
-            name: "Clayton Ly",
+            name: "Xander Mui",
             rank: "Chief Petty Officer, USNSCC",
-            quote: "Please don’t shoot the messenger.",
+            quote: "Please don't shoot the messenger.",
             portraitUrl: "img/staff/chiefly.png"
         },
     ];
