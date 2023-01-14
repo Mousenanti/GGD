@@ -12,7 +12,12 @@
     <script src="js/protected.js"></script>
 
     <script src="js/components/header.js" defer></script>
-
+    <script>
+      function iframeLoad(iframe) {
+        iframe.src = "http://docs.google.com/viewer?url=" + new URL(iframe.dataset.path, document.baseURI).href + "&embedded=true";
+        iframe.onload = null;
+      }
+    </script>
     <title>POD</title>
   </head>
   <body class="bg-light">
@@ -22,14 +27,14 @@
     <blockquote>
         Be in the right place, at the right time, in the right uniform.
     </blockquote>
-    <div class="container">
+    <div class="container mb-5">
       <p class="mt-2 text-center text-danger">
           The calendar for the entire year can be found in the Calendar page on the portal. 
           Make necessary arrangements ahead of time so that you don't miss drill—100% attendance is required!
       </p>
-      <button class="btn btn-outline-primary mb-2" href="assets/POD JAN 23.pdf">Download the POD</button>
+      <button class="btn btn-outline-primary mb-2" id="pod-pdf" href="assets/POD JAN 23.pdf">Download the POD</button>
       <div class="row">
-        <iframe class="col-md-8" style="min-height: 70vh;" src="assets/POD JAN 23.pdf"></iframe>
+        <iframe id="pod-pdf" data-path="assets/POD JAN 23.pdf" style="min-height: 70vh;" class="col-md-8" onload="iframeLoad(this)"></iframe>
         <div class="col-md-4">
           <dl>
             <dt>Instructions:</dt>
