@@ -3,11 +3,11 @@
     const greyghost = {
         "Executive Officer": "ENS Matthew DeMartini",
         "Command Chief": "CPO Xander Mui",
-        "Leading Petty Officer": "PO2 Ashley Tan",
-        "Assistant LPO": "PO3 Christian Legaspi",
+        "Leading Petty Officer": "PO2 Christian Legaspi",
+        "Assistant LPO": "PO1 Ashley Tan",
         squads: {
             Alpha: {
-                leader: "PO3 Davin Chen",
+                leader: "PO2 Davin Chen",
                 people: [
                     "SA Edward DeMartini",
                     "PO3 Ophelia Li",
@@ -28,7 +28,7 @@
             Bravo: {
                 leader: "PO3 Daniel Huang",
                 people: [
-                    "PO3 Lucas Cheung",
+                    "PO2 Lucas Cheung",
                     "PO3 Robyn Padilla",
                     "SN Derek Chen",
                     "SA Kenric Huang",
@@ -74,9 +74,8 @@
     
     const kearsarge = {
         "Executive Officer": "ENS Michael Spear",
-        "Command Chief": "CPO Aaron Cheung",
-        "Leading Petty Officer": "PO3 Ian Chiu",
-        "Assistant LPO": "ABC William Huang",
+        "Command Chief": "CPO Xander Mui",
+        "Leading Petty Officer": "PO3 William Huang",
     }
 
     document.getElementById('commanding-officer').innerText = CO;
