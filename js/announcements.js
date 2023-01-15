@@ -1,6 +1,13 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "New BATCOM",
+            text: "CPO Xander Mui is the new BATCOM. Please address all concerns appropriately through the chain of command. His phone number is 415-309-9494.",
+            datetime: "Sat 14 JAN 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "Service Jackets",
             text: "If you did not get your service jacket at the potluck on Sunday last drill, that means there was something missing from the info we must have in there, or you had not yet been approved for the training. If you are going to Camp SLO, I will bring your record with me.  If you are going to Hilltop, I will give your record to ENS Khan. Everyone else, we must pick a time for you to pick up your record before you leave.  If you are going to a training at a location with another cadet and you want them to pick up your record, let me know. Please TEXT me if you are going to a training besides SLO or Hilltop, and we will figure out a pickup time and place. 925-579-4755 ",
             datetime: "Mon 19 DEC 22",
