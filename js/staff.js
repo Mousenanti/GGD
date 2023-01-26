@@ -13,7 +13,7 @@
             name: "Kelly Norton",
             rank: "Lieutenant, USNSCC",
             quote: "Put them at ease. Good morning, cadets. GOOD MORNING, CADETS.",
-            portraitUrl: "img/staff/kellynorton.png"
+            portraitUrl: "img/staff/kellynorton.jpg"
         },
         {
             title: "Executive Officer",
