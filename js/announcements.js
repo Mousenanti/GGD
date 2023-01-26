@@ -43,8 +43,8 @@
         var div = document.createElement("div");
         div.classList.add("row", "py-4");
         div.innerHTML = `
-        <img class="h-100 col-2 rounded" src="${announcement.picture}"></img>
-        <div class="col-10">
+        <img class="h-100 col-lg-1 col-2 rounded" src="${announcement.picture}"></img>
+        <div class="col-lg-11 col-10">
         <p class="text-primary fw-bold">${announcement.announcer} > Everyone</p>
         <p><u>
             ${announcement.title}
