@@ -1,6 +1,13 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "Academic Report Card",
+            text: "If you would like to submit your academic report card for recognition in March, please use this link: https://forms.gle/gdK4e4K8LU7LsmQb8. Current period is for Fall semester 2022. Please submit before February 28, 2023.",
+            datetime: "Tue 31 JAN 23",
+            announcer: "INST MUI",
+            picture: "img/staff/instmui.png"
+        },
+        {
             title: "New BATCOM",
             text: "CPO Xander Mui is the new BATCOM. Please address all concerns appropriately through the chain of command. His phone number is 415-309-9494.",
             datetime: "Sat 14 JAN 23",
