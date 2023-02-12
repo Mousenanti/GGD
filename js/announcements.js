@@ -1,6 +1,25 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "Meal Response Form",
+            text: `Good morning, Cadets and Leaguers,   
+
+            Please respond to the meal response google form no later than Monday 13 Feb 23.
+
+            Click here =>  <a href="https://forms.gle/CCJZbiocpU6cXHpj6">https://forms.gle/CCJZbiocpU6cXHpj6</a>
+            
+            Unit needs time to plan and purchase meal items in advanced for our large group. If we do not hear from you, we will assume you ARE coming and you will be responsible for paying the $20 for meals. Saturday lunch is always BYO. There may be times the concession stand on the ship is not open and we don’t have control over that, so please plan ahead.    
+            
+            The meal cost for this February drill will remain $20. Due to continuing price increase of food supplies, going forward a typical drill meal cost will increase to $25. Thank you for your understanding.   
+            
+            As always, meal response sheet is not where you notify absences.  Continue to follow your Chain of Command for this.    
+            
+            See you all at the next drill.`,
+            datetime: "Sat 11 FEB 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "New BATCOM",
             text: "CPO Xander Mui is the new BATCOM. Please address all concerns appropriately through the chain of command. His phone number is 415-309-9494.",
             datetime: "Sat 14 JAN 23",
@@ -50,7 +69,7 @@
             ${announcement.title}
         </u></p>
         <p>
-        ${announcement.text}
+        ${announcement.text.replaceAll("\n", "<br>")}
         </p>
         <p class="text-muted">${announcement.datetime}</p>
         </div>
