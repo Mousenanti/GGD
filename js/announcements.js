@@ -1,6 +1,25 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "RESPONSE REQUIRED -2023 February Drill Meal Response Form",
+            text: `13Feb23:  
+
+            For those that responded already, thank you and no further action is required.  
+
+            For the few that have not, it is DUE TODAY.  
+
+            <a href="https://forms.gle/CCJZbiocpU6cXHpj6">https://forms.gle/CCJZbiocpU6cXHpj6</a>
+
+            Even if you are not attending, you still need respond to the meal sheet without checking off the meals. This is for meal planning only. Do not leave it up to the planning staff to figure that out.   
+
+            Thank you. 
+
+            P.S.  The leaguers are all accounted for. You can do this.`,
+            datetime: "Mon 13 FEB 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "Meal Response Form",
             text: `Good morning, Cadets and Leaguers,   
 
