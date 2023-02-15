@@ -1,6 +1,13 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "POD Posted",
+            text: "The Plan of the Day for the upcoming drill has been updated under the POD section in the cadet portal. Please disregard the document's suggestion that it is a November schedule.",
+            datetime: "Tue 14 FEB 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "RESPONSE REQUIRED -2023 February Drill Meal Response Form",
             text: `13Feb23:  
 
