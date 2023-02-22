@@ -1,6 +1,25 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "Volunteer Opportunity/Crab Feed",
+            text: `Cadets & Adult Volunteers,  
+
+            The Navy League is holding their annual Crab Feed Fundraiser at the Alameda Elks Lodge on Friday, March 3rd.  
+
+            If you are interested, please RSVP me at my email: Mattdemartini@yahoo.com  
+
+            The uniform of the day is NWU III.  Arrival time is 5pm.  You will receive 6 volunteer hours towards your community service ribbon.  
+
+            I have included the flyer to the event with the address.  Please RSVP as soon as possible so we can give them a head count of volunteers.  You will be fed at the end of the function.  There is usually plenty of crab and dessert left over.  The cadets who volunteered last year did an outstanding job. 
+
+            Exec. Off.  
+
+            DeMartini`,
+            datetime: "Wed 22 FEB 23",
+            announcer: "INST DeMARTINI",
+            picture: "img/staff/xodemartini.png"
+        },
+        {
             title: "POD Posted",
             text: "The Plan of the Day for the upcoming drill has been updated under the POD section in the cadet portal. Please disregard the document's suggestion that it is a November schedule.",
             datetime: "Tue 14 FEB 23",
