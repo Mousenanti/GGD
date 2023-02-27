@@ -1,6 +1,25 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "Crab Feed this Friday",
+            text: `Cadets, 
+
+            We are still looking for more volunteers for the Crab Feed this Friday evening at the Alameda Elks Lodge. 
+
+            Refer to previous email for details.  We need more cadets to help. 
+
+            Please RSVP as soon as possible. 
+    
+            Thanks. 
+
+  
+
+            EX OFF Demartini`,
+            datetime: "Sun 26 FEB 23",
+            announcer: "INST DeMARTINI",
+            picture: "img/staff/xodemartini.png"
+        },
+        {
             title: "Volunteer Opportunity/Crab Feed",
             text: `Cadets & Adult Volunteers,  
 
