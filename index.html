@@ -95,6 +95,22 @@
         <img src="img/16b7366c-9cdd-4b50-98d9-d83a9423fe7e 1.png" class="col-md-6 order-md-first">
       </div>
     </div>
+
+    <h1 class="text-uppercase text-center">Sponsors</h1>
+    <div id="sponsors" class="row d-flex justify-content-center row-cols-lg-5 row-cols-5 mx-4 mb-4">
+
+    </div>
     <footer-component></footer-component>
+
+    <script defer>
+      const sponsors = document.getElementById("sponsors");
+      console.log(sponsors);
+      for(i = 1; i <= 10; i++) {
+        var img = document.createElement("img");
+        img.src = `img/sponsors/${i}.png`
+        img.classList.add("col", "text-center", "img-fluid");
+        sponsors.appendChild(img);
+      }
+    </script>
   </body>
 </html>
