@@ -1,6 +1,19 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "Annual Inspection Flyer and Potluck Signup",
+            text: `Attached flyer for this year's Annual Inspection and Awards Ceremony.           
+
+            To sign up for potluck click <a href="https://forms.gle/yRn1yenLG983eV4e6">HERE.</a>     
+
+            Click here to <a href="https://docs.google.com/spreadsheets/d/1DU4O9wHKVXuVtDofO4XSqWcSaZeJmbg6pwd1gkYMKnU/edit?usp=sharing">view</a> current signups.       
+
+            Kindly RSVP by15Mar23.`,
+            datetime: "Sun 12 MAR 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "Aviation Training in Lemoore",
             text: `Cadets,    
 
