@@ -1,6 +1,19 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "Aviation Training in Lemoore",
+            text: `Cadets,    
+
+            The Aviation Training at Naval Air Staion Lemoore is posted.  Check Magellan trainings for more info.  Read the training details.  It fills quick, so if you want to go, apply for it now! 
+
+            Other trainings are starting to be posted as well.  
+
+            Ex. Off. DeMartini`,
+            datetime: "Mon 13 MAR 23",
+            announcer: "INST DeMARTINI",
+            picture: "img/staff/xodemartini.png"
+        },
+        {
             title: "Crab Feed this Friday",
             text: `Cadets, 
 
