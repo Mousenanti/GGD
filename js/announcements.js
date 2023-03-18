@@ -1,6 +1,43 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "CANCELED: 19 Mar 23 Annual Inspection & Potluck",
+            text: `Thank you for those that have responded to the potluck sign up.  
+
+            Sunday 19Mar23 Annual Inspection has been postponed therefore the award ceremony potluck is now canceled.   
+
+            We will proceed to have a 1 day drill on Saturday 18Mar23.  An updated POD will be posted on the website soon.  `,
+            datetime: "Thu 16 MAR 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
+            title: "Aviation Training in Lemoore",
+            text: `Cadets,    
+
+            The Aviation Training at Naval Air Staion Lemoore is posted.  Check Magellan trainings for more info.  Read the training details.  It fills quick, so if you want to go, apply for it now! 
+
+            Other trainings are starting to be posted as well.  
+
+            Ex. Off. DeMartini`,
+            datetime: "Mon 13 MAR 23",
+            announcer: "INST DeMARTINI",
+            picture: "img/staff/xodemartini.png"
+        },
+        {
+            title: "Annual Inspection Flyer and Potluck Signup",
+            text: `Attached flyer for this year's Annual Inspection and Awards Ceremony.           
+
+            To sign up for potluck click <a href="https://forms.gle/yRn1yenLG983eV4e6">HERE.</a>     
+
+            Click here to <a href="https://docs.google.com/spreadsheets/d/1DU4O9wHKVXuVtDofO4XSqWcSaZeJmbg6pwd1gkYMKnU/edit?usp=sharing">view</a> current signups.       
+
+            Kindly RSVP by15Mar23.`,
+            datetime: "Sun 12 MAR 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "Crab Feed this Friday",
             text: `Cadets, 
 
