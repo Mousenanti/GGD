@@ -2,7 +2,7 @@
     const CO = "LT Kelly Norton"
     const greyghost = {
         "Executive Officer": "ENS Matthew DeMartini",
-        "Command Chief": "CPO Xander Mui",
+        "Command Chief": "CPO Yifan Wang",
         "Leading Petty Officer": "PO2 Christian Legaspi",
         "Assistant LPO": "PO1 Ashley Tan",
         squads: {
@@ -58,7 +58,7 @@
                 ]
             },
             Zulu: {
-                leader: "CPO Yifan Wang",
+                leader: "CPO Aaron Cheung",
                 people: [
                     "SR Rachel Dong",
                     "SR Samand Khan",
