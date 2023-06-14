@@ -45,8 +45,8 @@
         ],
         July:  [
             {
-                start: 15,
-                end: 16,
+                start: 22,
+                end: 23,
                 event: "Drill"
             },
         ],
