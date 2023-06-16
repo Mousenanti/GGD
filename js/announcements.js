@@ -1,6 +1,17 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "NO DRILL IN JUNE",
+            text: `All, 
+
+  
+
+There will be no drill in June!  Our next unit meeting will be on the Fourth of July on the Hornet.  Standby for additional details on this event. `,
+            datetime: "Thu 15 JUN 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "RESPONSE REQUIRED - 2023 April Drill Meal Response Form",
             text: `All,          
 
