@@ -1,6 +1,27 @@
 (() => {
     const announcementsInfo = [
         {
+            title: "4th of July Parade and Cadet Tan's Chief Pinning",
+            text: `4th of July Parade and Cadet Tan's Chief Pinning 
+ 
+Date / Time: 04 Jul 23  
+Meeting time: 0900 
+Meeting location : Corner of Park Street and Lincoln Street, Alameda, CA (POD to follow with more detail)  
+Uniform of the day: Type III for cadets, Khakis for Chiefs 
+What to bring: hydration, sunblock
+ 
+We will participate be in the 4th of July Parade for Alameda, BBQ lunch provided.
+ 
+Cadet Tan's Chief pinning to follow after the parade post time and location TBD.
+ 
+Parents welcome to assist distribution of hydration along the parade route for cadets
+ 
+RSVP to CO Norton knorton@seacadets.org`,
+            datetime: "Fri 30 JUN 23",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "NO DRILL IN JUNE",
             text: `All, 
 
