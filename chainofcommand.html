@@ -11,6 +11,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script src="js/protected.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
 
     <script src="js/components/header.js" defer></script>
     <script src="js/chainofcommand.js" defer></script>
@@ -29,7 +30,9 @@
             <div class="col-12 col-md-6 offset-md-3">
                 <div class="rounded-3 bg-white p-2">
                     Commanding Officer
-                    <div class="display-5 text-warning" id="commanding-officer"></div>
+                    <div class="display-5 text-warning" id="commanding-officer">
+                        LT Kelly Norton
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,7 +44,9 @@
                 <b>Kearsarge</b>
             </div>
         </div>
-        <div id="chain"></div>
+        <div id="chain">
+            <span id="loading">Loading...</span>
+        </div>
         <div class="container bg-white">
             <div class="row mb-4"  id="squads">
                 

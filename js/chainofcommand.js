@@ -1,130 +1,99 @@
 (() => {
-    const CO = "LT Kelly Norton"
-    const greyghost = {
-        "Executive Officer": "ENS Matthew DeMartini",
-        "Command Chief": "CPO Yifan Wang",
-        "Leading Petty Officer": "PO2 Christian Legaspi",
-        "Assistant LPO": "PO1 Ashley Tan",
-        squads: {
-            Alpha: {
-                leader: "PO2 Davin Chen",
-                people: [
-                    "SA Edward DeMartini",
-                    "PO3 Ophelia Li",
-                    "SN Miriama Cakau",
-                    "SA Brandon Chen",
-                    "SA Kenric Huang",
-                    "SA Muneer Khan",
-                    "SA Emily Lau",
-                    "SA Connor Chen",
-                    "SA Jayden Choi",
-                    "SA Kailey Lin",
-                    "SA Jason Lu",
-                    "SA Jacob Madrilejo",
-                    "SA Reya Spear",
-                    "SA Chengen Tsai"
-                ]
-            },
-            Bravo: {
-                leader: "PO3 Daniel Huang",
-                people: [
-                    "PO2 Lucas Cheung",
-                    "PO3 Robyn Padilla",
-                    "SN Derek Chen",
-                    "SA Kenric Huang",
-                    "SN Ibtisam Riaz",
-                    "SA Japheth Chen",
-                    "SA Kayden Choi",
-                    "SA Keying Lin",
-                    "SA Justin Lu",
-                    "SA Merewalesi Matanitobua",
-                    "SA Sanders Tan",
-                    "SA Edmond Tso"
-                ]
-            },
-            "X-Ray": {
-                leader: "CPO Aaron Cheung",
-                people: [
-                    "SR Graham Chow",
-                    "SR Yasmine El Hattab",
-                    "SR Peyton Huang",
-                    "SR Damien Lai",
-                    "SR Leo Lei",
-                    "SR Tongtong Liu",
-                    "SR Isabela Sofis",
-                    "SR Elizabeth Uluilakeba",
-                    "SA-T Grace Uluilakeba",
-                    "SR Alex Zhu"
-                ]
-            },
-            Zulu: {
-                leader: "CPO Aaron Cheung",
-                people: [
-                    "SR Rachel Dong",
-                    "SR Samand Khan",
-                    "SR Celine Lei",
-                    "SR Janice Li",
-                    "SR Baron Siu",
-                    "SR Sereana Uluilakeba",
-                    "SR Vanessa Xu"
-                ]
-            }
-        }
-    }
-    
-    const kearsarge = {
-        "Executive Officer": "ENS Michael Spear",
-        "Command Chief": "CPO Xander Mui",
-        "Leading Petty Officer": "PO3 William Huang",
-    }
+
+    const apiKey = 'AIzaSyD32x20Jd9NfzkIc0qmYNr83XPAaQdZpnw';
+    const spreadsheetId = '1BLi86jGETsDZ59nNZZYXVU1AUC43ojhTnUq5K3W6u6g';
+    const range = 'B2:G44';
+
+    const CO = "LT Kelly Norton";
 
     document.getElementById('commanding-officer').innerText = CO;
 
-    var chain = document.getElementById('chain');
-    var positions = [
-        "Executive Officer", "Command Chief", 
-        "Leading Petty Officer", "Assistant LPO"
-    ]
-    for(const position of positions) {
-        gold = name => (position == "Executive Officer") /*|| name.includes("CPO")*/ ? "text-warning" : "";
 
-        var div = document.createElement("div");
-        div.classList.add("row", "mb-4");
-        div.innerHTML = `
-        <div class="col-6">
-            <div class="rounded-3 bg-white p-2">
-                ${position}
-                <div class="display-5 ${gold(greyghost[position])}">${greyghost[position]}</div>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="rounded-3 bg-white p-2">
-                ${position}
-                <div class="display-5 ${gold(kearsarge[position])}">${kearsarge[position]}</div>
-            </div>
-        </div>
-        `;
+    gapi.load('client', initClient);
 
-        chain.append(div);
+    function initClient() {
+      gapi.client.init({
+        apiKey: apiKey,
+        discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+      }).then(() => {
+        // Call the Google Sheets API to get data
+        gapi.client.sheets.spreadsheets.values.get({
+          spreadsheetId: spreadsheetId,
+          range: range,
+          majorDimension: 'COLUMNS'
+
+        }).then(response => {
+          const values = response.result.values;
+          if (values && values.length > 0) {
+            
+            handle(values);
+
+          } else {
+            console.log('No data found.');
+          }
+        }).catch(error => {
+          
+            
+
+        });
+      });
     }
 
-    var squads = document.getElementById('squads');
-    for(const squad in greyghost.squads) {
-        gold = name => /*name.includes("CPO") ? "text-warning" :*/ "";
+    function handle(values) {
 
-        var div = document.createElement("div");
-        const leader = greyghost.squads[squad].leader;
-        const people = greyghost.squads[squad].people;
-        div.classList.add("col-md-6", "col-12");
-        div.innerHTML = `
-        <div class="bg-white p-2">
-            ${squad} Squad Leader
-            <div class="display-6 ${gold(leader)} mb-2">${leader}</div>
-            <ul class="list-unstyled">
-                ${people.map(x => `<li>${x}</li>`).join('')}
-            </ul>
-        </div>`
+        greyghost = values[0];
+        kearsarge = values[1];
 
-        squads.appendChild(div);
+        var chain = document.getElementById('chain');
+        for(i = 0; i < Math.max(greyghost.length, kearsarge.length); i++) {
+            gold = position => (position == "Executive Officer") /*|| name.includes("CPO")*/ ? "text-warning" : "";
+            var [ggdPos, ggdName] = greyghost[i] === undefined ? [1, 1] : greyghost[i].split(": ");
+            var [tskPos, tskName] = kearsarge[i] === undefined ? [1, 1] : kearsarge[i].split(": ");
+
+            var div = document.createElement("div");
+            div.classList.add("row", "mb-4");
+
+            var ggdStr = ggdPos === 1 ? "" : `
+            <div class="col-6">
+                <div class="rounded-3 bg-white p-2">
+                    ${ggdPos}
+                    <div class="display-5 ${gold(ggdPos)}">${ggdName}</div>
+                </div>
+            </div>
+
+            `;
+            var tskStr = tskPos === 1 ? "" :`
+            <div class="col-6">
+                <div class="rounded-3 bg-white p-2">
+                    ${tskPos}
+                    <div class="display-5 ${gold(tskPos)}">${tskName}</div>
+                </div>
+            </div>
+            `;
+
+            div.innerHTML = ggdStr + tskStr;
+            chain.append(div);
+        }
+        chain.removeChild(document.getElementById("loading"));
+
+        /*
+        var squads = document.getElementById('squads');
+        for(const squad in greyghost.squads) {
+
+            var div = document.createElement("div");
+            const leader = greyghost.squads[squad].leader;
+            const people = greyghost.squads[squad].people;
+            div.classList.add("col-md-6", "col-12");
+            div.innerHTML = `
+            <div class="bg-white p-2">
+                ${squad} Squad Leader
+                <div class="display-6 ${leader} mb-2">${leader}</div>
+                <ul class="list-unstyled">
+                    ${people.map(x => `<li>${x}</li>`).join('')}
+                </ul>
+            </div>`
+
+            squads.appendChild(div);
+        }*/
     }
 })();
