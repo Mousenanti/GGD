@@ -1,3 +1,5 @@
+//if(document.cookie.indexOf("authorized") === 'replace me!') {
+//use above for testing previews
 if(document.cookie.indexOf("authorized") === -1) {
     console.log(1);
 
