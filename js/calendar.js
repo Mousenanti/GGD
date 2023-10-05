@@ -67,7 +67,7 @@
         October:  [
             {
                 start: 7,
-                end: 7,
+                end: 8,
                 event: "Drill - Fleet Week"
             },
         ],
