@@ -4,7 +4,7 @@
     const spreadsheetId = '1BLi86jGETsDZ59nNZZYXVU1AUC43ojhTnUq5K3W6u6g';
     const range = 'B2:G44';
 
-    const CO = "LT Kelly Norton";
+    const CO = "LCDR Kelly Norton";
 
     document.getElementById('commanding-officer').innerText = CO;
 
