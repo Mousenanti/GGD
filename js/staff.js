@@ -11,7 +11,7 @@
         {
             title: "Commanding Officer",
             name: "Kelly Norton",
-            rank: "Lieutenant, USNSCC",
+            rank: "Lieutenant Commander, USNSCC",
             quote: "Put them at ease. Good morning, cadets. GOOD MORNING, CADETS.",
             portraitUrl: "img/staff/kellynorton.jpg"
         },
@@ -53,15 +53,15 @@
         {
             title: "Administrative Officer",
             name: "Michael Gomes",
-            rank: "Instructor, USNSCC",
+            rank: "Ensign, USNSCC",
             quote: "We ran out of that ribbon. That one, too. And that rack.",
             portraitUrl: "img/staff/instgomes.png"
         },
         {
             title: "Command Chief",
-            name: "Xander Mui",
+            name: "Shivar Sundar",
             rank: "Chief Petty Officer, USNSCC",
-            quote: "Please don't shoot the messenger.",
+            quote: "Sundays with Sundar!",
             portraitUrl: "img/staff/chiefly.png"
         },
     ];
