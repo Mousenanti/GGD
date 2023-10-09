@@ -2,8 +2,7 @@
     const announcementsInfo = [
         {
             title: "October Volunteer Opportunities",
-            text: `4th of July Parade and Cadet Tan's Chief Pinning 
- 
+            text: `
             Date / Time: 28 OCT 23  
             Meeting time: TBD, evening
             Meeting location : USS Hornet, Alameda American Legion Post
