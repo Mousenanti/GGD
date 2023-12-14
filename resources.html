@@ -15,7 +15,12 @@
 
     <script src="js/components/header.js" defer></script>
     <script src="js/components/cadetbar.js" defer></script>
-
+    <script>
+      function iframeLoad(iframe) {
+        iframe.src = "https://docs.google.com/viewer?url=" + new URL(iframe.dataset.path, document.baseURI).href + "&embedded=true";
+        iframe.onload = null;
+      }
+    </script>
 
     <title>Resources</title>
     <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
@@ -556,7 +561,8 @@
             </div>
           </div>
         </div>
-
+        <p align="center"><iframe id="pod-pdf" data-path="assets/GGD Recruit Knowledge Sheet.pdf" style="min-height: 70vh;" class="col-md-8" onload="iframeLoad(this)"></iframe></p>
+        <!-- fix this to update deprecation at some point -->
       </div>
     </div>
 
