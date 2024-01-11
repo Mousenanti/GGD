@@ -43,7 +43,7 @@
                 event: "Camping Trip"
             },
         ],
-        June:  [
+        Mid_June:  [
             {
                 start: 15,
                 end: 15,
