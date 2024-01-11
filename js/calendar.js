@@ -3,86 +3,93 @@
     const calendarInfo = {
         January: [
             {
-                start: 14,
-                end: 14,
-                event: "Drill"
-            },
-        ],
-        February:  [
-            {
-                start: 18,
-                end: 19,
-                event: "Drill"
-            },
-        ],
-        March:  [
-            {
-                start: 18,
-                end: 19,
-                event: "Drill"
-            },
-        ],
-        April:  [
-            {
-                start: 15,
-                end: 16,
-                event: "Drill"
-            },
-        ],
-        May:  [
-            {
                 start: 20,
                 end: 21,
                 event: "Drill"
             },
         ],
+        February:  [
+            {
+                start: 17,
+                end: 18,
+                event: "Annual Inspection, Unit 25th Birthday"
+            },
+        ],
+        March:  [
+            {
+                start: 9,
+                end: 10,
+                event: "Drill"
+            },
+        ],
+        April:  [
+            {
+                start: 13,
+                end: 14,
+                event: "Drill"
+            },
+        ],
+        May:  [
+            {
+                start: 18,
+                end: 19,
+                event: "Drill, Graduating Cadet Celebration"
+            },
+        ],
         June:  [
+            {
+                start: 8,
+                end: 9,
+                event: "Camping Trip"
+            },
+        ],
+        June:  [
+            {
+                start: 15,
+                end: 15,
+                event: "Seabag Inspection for Training"
+            },
+        ],
+        July:  [
+            {
+                start: 4,
+                end: 4,
+                event: "NO DRILL - Fourth of July Service Event, Service Record Pickup"
+            },
+        ],
+        August:  [
             {
                 start: 17,
                 end: 18,
                 event: "Drill"
             },
         ],
-        July:  [
-            {
-                start: 22,
-                end: 23,
-                event: "Drill"
-            },
-        ],
-        August:  [
-            {
-                start: 19,
-                end: 20,
-                event: "Drill"
-            },
-        ],
         September:  [
             {
-                start: 2,
-                end: 3,
-                event: "Drill - Scottish Games"
+                start: 31,
+                end: 1,
+                event: "AUG 31 Start: Scottish Games"
             },
         ],
         October:  [
             {
-                start: 7,
-                end: 8,
+                start: 5,
+                end: 6,
                 event: "Drill - Fleet Week"
             },
         ],
         November:  [
             {
-                start: 11,
-                end: 11,
+                start: 16,
+                end: 17,
                 event: "Drill"
             },
         ],
         December:  [
             {
-                start: 16,
-                end: 17,
-                event: "Drill"
+                start: 14,
+                end: 15,
+                event: "Drill - Holiday Party, Service Record Pickup"
             },
         ]
     };
