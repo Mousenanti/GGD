@@ -12,14 +12,14 @@
             {
                 start: 17,
                 end: 18,
-                event: "Annual Inspection, Unit 25th Birthday"
+                event: "Drill"
             },
         ],
         March:  [
             {
                 start: 9,
                 end: 10,
-                event: "Drill"
+                event: "Annual Inspection, Unit 25th Birthday"
             },
         ],
         April:  [
