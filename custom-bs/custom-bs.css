@@ -83,6 +83,14 @@
   box-sizing: border-box;
 }
 
+iframe {
+  width: 100%;
+  height: 10%;
+  aspect-ratio: 2 / 1;
+  padding-right: auto;
+}
+/* added for the google calendar iframe in cadets.js */
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
