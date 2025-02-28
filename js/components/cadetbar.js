@@ -21,6 +21,12 @@
       </span>
       Chain of Command
     </a>
+    <a class="d-flex btn btn-light text-start w-100" href="promotionmatrix.html">
+      <span class="material-symbols-outlined me-2">
+        person
+      </span>
+      Promotion Matrix
+    </a>
     <a class="d-flex btn btn-light text-start w-100" href="supply.html">
       <span class="material-symbols-outlined me-2">
         checkroom

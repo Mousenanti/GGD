@@ -71,7 +71,25 @@
             </div>
             `;
 
-            div.innerHTML = ggdStr + tskStr;
+            var tskStr2 = tskPos === 1 ? "" :`
+            <div class="col-6">
+                <div class="rounded-3 bg-white p-2">
+                    ${tskPos}
+                    <div class="display-5 ${gold(tskPos)}">${tskName}</div>
+                </div>
+            </div>
+            `;
+
+            var tskStr3 = tskPos === 1 ? "" :`
+            <div class="col-6">
+                <div class="rounded-3 bg-white p-2">
+                    ${tskPos}
+                    <div class="display-5 ${gold(tskPos)}">${tskName}</div>
+                </div>
+            </div>
+            `;
+
+            div.innerHTML = ggdStr + tskStr + tskStr2 + tskStr3;
             chain.append(div);
         }
         chain.removeChild(document.getElementById("loading"));
