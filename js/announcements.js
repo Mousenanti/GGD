@@ -10,10 +10,11 @@
             What to bring: hydration
             
             We will be assisting with the Spring Bingo event. 
-            RSVP: <a href="https://forms.gle/SjDZpZ47wjipRW2p6">https://forms.gle/CCJZbiocpU6cXHpj6</a>
+            RSVP: <a href="https://forms.gle/SjDZpZ47wjipRW2p6">https://forms.gle/CCJZbiocpU6cXHpj6</a>`,
+
             datetime: "Sat 22 Mar 25",
             announcer: "General Announcement",
-            picture: "img/staff/general.png"`
+            picture: "img/staff/general.png"
         },
         {
             title: "4th of July Parade and Cadet Tan's Chief Pinning",
