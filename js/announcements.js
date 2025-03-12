@@ -1,12 +1,12 @@
 (() => {
     const announcementsInfo = [
         {
-            title: "October Volunteer Opportunities",
+            title: "March 2025 Volunteer Opportunities",
             text: `
-            Date / Time: 28 OCT 23  
-            Meeting time: TBD, evening
-            Meeting location : USS Hornet, Alameda American Legion Post
-            Uniform of the day: Working uniform/costume
+            Date / Time: 22 MAR 25  
+            Meeting time: 1700-2100
+            Meeting location : Alameda Veterans Hall, 2203 Central Ave., Alameda
+            Uniform of the day: Type 3
             What to bring: hydration
             
             We will be assisting with two volunteer events the evening of the 28th. The Monster Bash will be on the USS Hornet,
