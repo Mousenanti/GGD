@@ -19,8 +19,7 @@
         {
             title: "Spring Training Opportunity",
             text: `
-            
-            
+                        
             Any Sea Cadets who are looking to complete a training before summer, please let us
             know if you would be interested in attending a Recruiting Station Training during your spring break!
             If you just need a training to advance and you were not able to attend this winter, or wont be
@@ -34,30 +33,34 @@
 
             Please note that this is a "day camp" style training where you will need to find a ride
             to the chosen recruiting station each day for 5 week days.  Once we know who is interested,
-            we will see if a centeral location can be found and which adults we can find to staff as escorts.`,
+            we will see if a central location can be found and which adults we can find to staff as escorts.`,
 
-            datetime: "",
+            datetime: "Spring Break 2025",
             announcer: "General Announcement",
             picture: "img/staff/general.png"
         },
         {
-            title: "4th of July Parade and Cadet Tan's Chief Pinning",
-            text: `4th of July Parade and Cadet Tan's Chief Pinning 
- 
-            Date / Time: 04 Jul 23  
-            Meeting time: 0900 
-            Meeting location : Corner of Park Street and Lincoln Street, Alameda, CA (POD to follow with more detail)  
-            Uniform of the day: Type III for cadets, Khakis for Chiefs 
-            What to bring: hydration, sunblock
+            title: "Deadline Extension: 2025 Scholarship Essay Contest",
+            text: `
+                        
+            We have extended the essay contest until 25 APR 25.
+            We are happy to announce that we will be launching a new annual contest for an opportunity to be
+            awarded two different scholarships! This will involve an essay to be turned in no later than 25 APR 25.
             
-            We will participate be in the 4th of July Parade for Alameda, BBQ lunch provided.
+            The LCDR Laneya Littrell Training Scholarship was someone who loved the Sea Cadet program and loved to run trainings.
+            Some of which, a few of us have attended and assisted in.
+            The winner of this scholarship will receive one free training up to $250.
             
-            Cadet Tan's Chief pinning to follow after the parade post time and location TBD.
-            
-            Parents welcome to assist distribution of hydration along the parade route for cadets
-            
-            RSVP to CO Norton knorton@seacadets.org`,
-            datetime: "Fri 30 JUN 23",
+            The LCDR Jack Powell is the founder of Grey Ghost Division and Training Ship Kearsarge.
+            The winner of this scholarship will receive one free year of enrollment.
+            Please see the attached documents for more information, and good luck!
+            Click below for more information:             
+
+            <a href="https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=drive_link">https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=drive_link</a>
+            <a href="https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=drive_link">https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=drive_link</a>
+            `,
+
+            datetime: "",
             announcer: "General Announcement",
             picture: "img/staff/general.png"
         },
