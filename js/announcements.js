@@ -19,7 +19,6 @@
         {
             title: "Spring Training Opportunity",
             text: `
-                        
             Any Sea Cadets who are looking to complete a training before summer, please let us
             know if you would be interested in attending a Recruiting Station Training during your spring break!
             If you just need a training to advance and you were not able to attend this winter, or wont be
@@ -41,8 +40,7 @@
         },
         {
             title: "Deadline Extension: 2025 Scholarship Essay Contest",
-            text: `
-                        
+            text: `   
             We have extended the essay contest until 25 APR 25.
             We are happy to announce that we will be launching a new annual contest for an opportunity to be
             awarded two different scholarships! This will involve an essay to be turned in no later than 25 APR 25.
@@ -53,11 +51,11 @@
             
             The LCDR Jack Powell is the founder of Grey Ghost Division and Training Ship Kearsarge.
             The winner of this scholarship will receive one free year of enrollment.
-            Please see the attached documents for more information, and good luck!
-            Click below for more information:             
+            Please see the attached documents for more information, and good luck! 
+            
+            Click here for more information:
+            
 
-            <a href="https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=drive_link">https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=drive_link</a>
-            <a href="https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=drive_link">https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=drive_link</a>
             `,
 
             datetime: "",
