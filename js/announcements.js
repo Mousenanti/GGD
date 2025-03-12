@@ -53,7 +53,12 @@
             
             The LCDR Jack Powell is the founder of Grey Ghost Division and Training Ship Kearsarge.
             The winner of this scholarship will receive one free year of enrollment.
-            Please see the attached documents for more information, and good luck!`,
+            Please see the attached documents for more information, and good luck!
+            Click below for more information:             
+
+            <a href="https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=drive_link">https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=drive_link</a>
+            <a href="https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=drive_link">https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=drive_link</a>
+            `,
 
             datetime: "",
             announcer: "General Announcement",
