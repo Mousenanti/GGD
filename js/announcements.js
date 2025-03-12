@@ -17,6 +17,30 @@
             picture: "img/staff/general.png"
         },
         {
+            title: "Spring Training Opportunity",
+            text: `
+            
+            
+            Any Sea Cadets who are looking to complete a training before summer, please let us
+            know if you would be interested in attending a Recruiting Station Training during your spring break!
+            If you just need a training to advance and you were not able to attend this winter, or wont be
+            able to this summer, please send an email to knorton@seacadets.org by Saturday March 22nd
+            with the following information:
+ 
+                What are the dates of your spring break?
+                Did you miss winter training or will you be missing summer training?
+                What city do you live in?
+                Are you able to drive yourself to this training or will you need to find a ride?
+
+            Please note that this is a "day camp" style training where you will need to find a ride
+            to the chosen recruiting station each day for 5 week days.  Once we know who is interested,
+            we will see if a centeral location can be found and which adults we can find to staff as escorts.`,
+
+            datetime: "",
+            announcer: "General Announcement",
+            picture: "img/staff/general.png"
+        },
+        {
             title: "4th of July Parade and Cadet Tan's Chief Pinning",
             text: `4th of July Parade and Cadet Tan's Chief Pinning 
  
