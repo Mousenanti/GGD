@@ -60,7 +60,6 @@
                     <div class="display-5 ${gold(ggdPos)}">${ggdName}</div>
                 </div>
             </div>
-
             `;
             var tskStr = tskPos === 1 ? "" :`
             <div class="col-6">
