@@ -47,15 +47,14 @@
             
             The LCDR Laneya Littrell Training Scholarship was someone who loved the Sea Cadet program and loved to run trainings.
             Some of which, a few of us have attended and assisted in.
-            The winner of this scholarship will receive one free training up to $250.
+            The winner of this scholarship will receive one free training up to $250.  
             
-            The LCDR Jack Powell is the founder of Grey Ghost Division and Training Ship Kearsarge.
+            The LCDR Jack Powell Scholarship is the founder of Grey Ghost Division and Training Ship Kearsarge.
             The winner of this scholarship will receive one free year of enrollment.
-            Please see the attached documents for more information, and good luck! 
             
-            Click here for more information:
-            
-
+            Please click below for more information, and good luck! 
+            <a href="https://drive.google.com/file/d/1lGLfLw_pKWrPNLH4kYBt-1PSIszafRdN/view?usp=sharing">LCDR Laneya Littrell Training Scholarship</a>
+            <a href="https://drive.google.com/file/d/1yOOXoRAd3d4Jrmap2aXyH8vhzrNHbMuD/view?usp=sharing">LCDR Jack Powell Enrollment Scholarship</a>
             `,
 
             datetime: "",
