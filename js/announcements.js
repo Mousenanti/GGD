@@ -41,15 +41,14 @@
         {
             title: "Deadline Extension: 2025 Scholarship Essay Contest",
             text: `   
-            We have extended the essay contest until 25 APR 25.
+            We have extended the essay contest until 25 APR 25. 
             We are happy to announce that we will be launching a new annual contest for an opportunity to be
             awarded two different scholarships! This will involve an essay to be turned in no later than 25 APR 25.
             
-            The LCDR Laneya Littrell Training Scholarship was someone who loved the Sea Cadet program and loved to run trainings.
-            Some of which, a few of us have attended and assisted in.
-            The winner of this scholarship will receive one free training up to $250.  
+            The LCDR Laneya Littrell Training Scholarship: LCDR Laneya Littrell loved the Sea Cadet program and loved to run trainings, 
+            some of which a few of us have attended and assisted in. The winner of this scholarship will receive one free training up to $250.  
             
-            The LCDR Jack Powell Scholarship is the founder of Grey Ghost Division and Training Ship Kearsarge.
+            The LCDR Jack Powell Sea Cadet Enrollment Scholarship: LCDR Jack Powell is the founder of Grey Ghost Division and Training Ship Kearsarge.
             The winner of this scholarship will receive one free year of enrollment.
             
             Please click below for more information, and good luck! 
