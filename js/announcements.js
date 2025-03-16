@@ -62,38 +62,6 @@
 
         },
         {
-            title: "NO DRILL IN JUNE",
-            text: `All, 
-
-  
-
-            There will be no drill in June!  Our next unit meeting will be on the Fourth of July on the Hornet.  Standby for additional details on this event. `,
-            datetime: "Thu 15 JUN 23",
-            announcer: "General Announcement",
-            picture: "img/staff/general.png"
-        },
-        {
-            title: "RESPONSE REQUIRED - 2023 April Drill Meal Response Form",
-            text: `All,          
-
-            April drill is on April 15-16 and that Saturday is also our Annual Inspection.      
-
-            For meal planning purpose only, please respond to the attached google form for meals NO LATER THAN Monday 10 Apr 23 at 2359.  
-
-            Click below:             
-
-            <a href="https://forms.gle/UTVdGWFsmWcYZHCo9">https://forms.gle/UTVdGWFsmWcYZHCo9</a>
-
-            Thank you.  
-
-            <b style="color:Red;">100% Attendance Required  ALL HANDS MUST ATTEND or it will count against us!</b>          
-
-            Note, This form is for meal planning only.  This is not a substitution to follow your chain of command protocol to excuse absences. `,
-            datetime: "Fri 07 APR 23",
-            announcer: "INST MUI",
-            picture: "img/staff/instmui.png"
-        },
-        {
             title: "CANCELED: 19 Mar 23 Annual Inspection & Potluck",
             text: `Thank you for those that have responded to the potluck sign up.  
 
